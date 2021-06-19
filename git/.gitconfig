@@ -1,0 +1,12 @@
+[color]
+	ui = auto
+[core]
+	editor = vim
+[alias]
+	s = status
+	a = add
+	all = add .
+	ci = commit
+	co = checkout 
+	br = branch
+
