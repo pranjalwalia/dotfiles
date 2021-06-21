@@ -89,6 +89,10 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='mvim'
 # fi
 
+# NVM Alias
+export NVM_DIR=~/.nvm
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -105,3 +109,4 @@ alias runport="lsof -i "
 alias update="source ~/.zshrc"
 
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
