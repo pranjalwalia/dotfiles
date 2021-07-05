@@ -1,3 +1,6 @@
+[user]
+	name = Pranjal Walia
+	email = pranjalwalia77@gmail.com
 [color]
 	ui = auto
 [core]
@@ -9,4 +12,7 @@
 	ci = commit
 	co = checkout 
 	br = branch
+	pending = !sh -c 'git log origin/$1..HEAD' -
+
+
 
