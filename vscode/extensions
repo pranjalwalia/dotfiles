@@ -1,1 +1,15 @@
-code --list-extensions
+aaron-bond.better-comments
+austin.code-gnu-global
+christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+kumar-harsh.graphql-for-vscode
+marqu3s.aurora-x
+ms-azuretools.vscode-docker
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
+PKief.material-icon-theme
+VisualStudioExptTeam.vscodeintellicode
