@@ -1,0 +1,21 @@
+{
+  "workbench.colorTheme": "Aurora X",
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.suggestSelection": "first",
+  "security.workspace.trust.startupPrompt": "never",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDelete": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+  "window.zoomLevel": 1,
+  "terminal.integrated.fontSize": 13
+}
