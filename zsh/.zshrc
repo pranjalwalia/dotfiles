@@ -74,6 +74,8 @@ DISABLE_AUTO_UPDATE="true"
 plugins=(git zsh-autosuggestions git-prompt zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+source /usr/share/doc/fzf/examples/completion.zsh
 
 # User configuration
 
@@ -107,6 +109,16 @@ alias zshconf="vim ~/.zshrc"
 alias usage="du -h -d1"
 alias runport="lsof -i "
 alias update="source ~/.zshrc"
+alias fd="fdfind"
 
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
 
+
+#fzf conf
+export FZF_DEFAULT_COMMAND='fdfind --type f'
+export FZF_DEFAULT_COMMAND='fdfind --type f --hidden --follow --exclude .git --exclude node_modules'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fdfind -t d --hidden --follow --exclude \".git\" --exclude \"node_modules\" ."
